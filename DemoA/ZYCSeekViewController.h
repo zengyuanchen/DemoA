@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ZYCSeekViewController.h
 //  DemoA
 //
 //  Created by 曾源琛 on 16/4/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ZYCSeekViewController : UIViewController
 
 @end
-

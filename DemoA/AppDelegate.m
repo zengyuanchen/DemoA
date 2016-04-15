@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "ZYCMagnifierViewController.h"
+#import "ZYCSeekViewController.h"
+#import "ZYCScratchViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,30 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+    ZYCMagnifierViewController *magnifierCtl = [[ZYCMagnifierViewController alloc] init];
+    magnifierCtl.title = @"放大镜";
+    UINavigationController *navi1 = [[UINavigationController alloc] initWithRootViewController:magnifierCtl];
+    
+    
+    ZYCSeekViewController *seekCtl = [[ZYCSeekViewController alloc] init];
+    seekCtl.title = @"遮罩";
+    UINavigationController *navi2 = [[UINavigationController alloc] initWithRootViewController:seekCtl];
+    
+    ZYCScratchViewController *scratchCtl = [[ZYCScratchViewController alloc] init];
+    scratchCtl.title = @"刮除";
+    UINavigationController *navi3 = [[UINavigationController alloc] initWithRootViewController:scratchCtl];
+    
+    
+    UITabBarController *tabbarCtl = [[UITabBarController alloc] init];
+    tabbarCtl.viewControllers = @[navi1,navi2,navi3];
+    
+    self.window.rootViewController = tabbarCtl;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
