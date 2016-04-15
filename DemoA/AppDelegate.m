@@ -34,7 +34,7 @@
     UINavigationController *navi2 = [[UINavigationController alloc] initWithRootViewController:seekCtl];
     
     ZYCScratchViewController *scratchCtl = [[ZYCScratchViewController alloc] init];
-    scratchCtl.title = @"刮除";
+    scratchCtl.title = @"刮刮乐";
     UINavigationController *navi3 = [[UINavigationController alloc] initWithRootViewController:scratchCtl];
     
     

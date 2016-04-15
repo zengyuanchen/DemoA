@@ -24,6 +24,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
+    self.title = @"刮刮乐";
+    
     UIBarButtonItem *leftItem = [[UIBarButtonItem alloc] initWithTitle:@"重置" style:UIBarButtonItemStylePlain target:self action:@selector(reset)];
     self.navigationItem.leftBarButtonItem = leftItem;
     
