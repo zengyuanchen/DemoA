@@ -10,7 +10,6 @@
 		1B2C3E6A1CC0BDC000A1575B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2C3E691CC0BDC000A1575B /* main.m */; };
 		1B2C3E6D1CC0BDC000A1575B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2C3E6C1CC0BDC000A1575B /* AppDelegate.m */; };
 		1B2C3E751CC0BDC000A1575B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B2C3E741CC0BDC000A1575B /* Assets.xcassets */; };
-		1B2C3E781CC0BDC000A1575B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B2C3E761CC0BDC000A1575B /* LaunchScreen.storyboard */; };
 		1B2C3E821CC0BE0100A1575B /* ZYCMagnifierViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2C3E801CC0BE0100A1575B /* ZYCMagnifierViewController.m */; };
 		1B2C3E871CC0BE4200A1575B /* ZYCScratchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2C3E851CC0BE4200A1575B /* ZYCScratchViewController.m */; };
 		1B2C3E881CC0BE4200A1575B /* ZYCScratchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B2C3E861CC0BE4200A1575B /* ZYCScratchViewController.xib */; };
@@ -21,6 +20,7 @@
 		1B2C3E9D1CC0CAE400A1575B /* a0@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B2C3E9A1CC0CAE400A1575B /* a0@2x.jpg */; };
 		1B2C3E9E1CC0CAE400A1575B /* a1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B2C3E9B1CC0CAE400A1575B /* a1@2x.jpg */; };
 		1B2C3E9F1CC0CAE400A1575B /* a3@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B2C3E9C1CC0CAE400A1575B /* a3@2x.jpg */; };
+		1B2C3EA11CC35EDB00A1575B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B2C3EA01CC35EDB00A1575B /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,6 @@
 		1B2C3E6B1CC0BDC000A1575B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1B2C3E6C1CC0BDC000A1575B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1B2C3E741CC0BDC000A1575B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1B2C3E771CC0BDC000A1575B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B2C3E791CC0BDC000A1575B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B2C3E7F1CC0BE0100A1575B /* ZYCMagnifierViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCMagnifierViewController.h; sourceTree = "<group>"; };
 		1B2C3E801CC0BE0100A1575B /* ZYCMagnifierViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCMagnifierViewController.m; sourceTree = "<group>"; };
@@ -45,6 +44,7 @@
 		1B2C3E9A1CC0CAE400A1575B /* a0@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "a0@2x.jpg"; sourceTree = "<group>"; };
 		1B2C3E9B1CC0CAE400A1575B /* a1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "a1@2x.jpg"; sourceTree = "<group>"; };
 		1B2C3E9C1CC0CAE400A1575B /* a3@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "a3@2x.jpg"; sourceTree = "<group>"; };
+		1B2C3EA01CC35EDB00A1575B /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,9 +91,9 @@
 				1B2C3E851CC0BE4200A1575B /* ZYCScratchViewController.m */,
 				1B2C3E861CC0BE4200A1575B /* ZYCScratchViewController.xib */,
 				1B2C3E741CC0BDC000A1575B /* Assets.xcassets */,
-				1B2C3E761CC0BDC000A1575B /* LaunchScreen.storyboard */,
 				1B2C3E791CC0BDC000A1575B /* Info.plist */,
 				1B2C3E681CC0BDC000A1575B /* Supporting Files */,
+				1B2C3EA01CC35EDB00A1575B /* Launch Screen.storyboard */,
 			);
 			path = DemoA;
 			sourceTree = "<group>";
@@ -182,9 +182,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B2C3E781CC0BDC000A1575B /* LaunchScreen.storyboard in Resources */,
 				1B2C3E8D1CC0BE9200A1575B /* ZYCSeekViewController.xib in Resources */,
 				1B2C3E9E1CC0CAE400A1575B /* a1@2x.jpg in Resources */,
+				1B2C3EA11CC35EDB00A1575B /* Launch Screen.storyboard in Resources */,
 				1B2C3E881CC0BE4200A1575B /* ZYCScratchViewController.xib in Resources */,
 				1B2C3E9D1CC0CAE400A1575B /* a0@2x.jpg in Resources */,
 				1B2C3E751CC0BDC000A1575B /* Assets.xcassets in Resources */,
@@ -210,17 +210,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		1B2C3E761CC0BDC000A1575B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1B2C3E771CC0BDC000A1575B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1B2C3E7A1CC0BDC000A1575B /* Debug */ = {
